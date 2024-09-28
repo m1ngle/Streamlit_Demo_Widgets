@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # Load the dataset
-df = pd.read_csv('Resources/municipal_demographics.csv')
+df = pd.read_csv('municipal_demographics.csv')
 
 @st.cache_data
 def convert_df(df):
